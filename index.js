@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 import './Kalyanamastu.css';
 
-import App from './App';
+import KalyanamastuPage from './KalyanamastuPage';
 
  
 
