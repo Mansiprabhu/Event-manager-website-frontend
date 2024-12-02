@@ -1,0 +1,879 @@
+/* App.css */
+
+.App {
+
+  text-align:
+justify;
+
+  font-family:
+'Brush Script MT', cursive;
+
+}
+
+
+
+
+.image-container {
+
+  width:
+100%;
+
+  display:
+inside;
+
+  justify-content:
+space-evenly;
+
+  margin-bottom:
+20px;
+/* Space between the image and text */
+
+}
+
+
+
+
+.background-image {
+
+  max-width:
+80%;
+
+  height:
+auto;
+
+}
+
+
+
+
+.intro-image {
+
+  max-width:
+100%;
+/* Ensure the image fits within the content area */
+
+  height:
+auto;
+
+  margin-bottom:
+20px;
+/* Space below the image */
+
+}
+
+
+
+
+.content {
+
+  padding:
+60px;
+
+  border-radius:
+40px;
+
+  background-color:
+#27262609;
+/* Light background for the text */
+
+  margin:
+0
+auto;
+
+  max-width:
+800px;
+/* Maximum width of the content area */
+
+  text-align:
+left;
+
+}
+
+
+
+
+.content
+h1,
+.content
+h2 {
+
+  color:
+#363434;
+
+}
+
+
+
+
+.content
+ul {
+
+  text-align:
+center;
+
+  list-style-type:
+none;
+/* No bullets for list */
+
+  padding:
+0;
+
+}
+
+
+
+
+.content
+ul
+li {
+
+  padding:
+10px
+0;
+
+  border-bottom:
+1px
+solid
+#020202;
+
+}
+
+
+
+
+.content
+ul
+li:last-child {
+
+  border-bottom:
+none;
+
+}
+
+
+
+
+/* App.css */
+
+html,
+body,
+#root,
+.App {
+
+  height:
+100%;
+/* Ensures the full height of the viewport is covered */
+
+  margin:
+0;
+/* Removes default margin */
+
+  padding:
+0;
+/* Removes default padding */
+
+}
+
+
+
+
+.App {
+
+  background-image:
+url('https://tirumaladesigners.in/cdn/shop/products/MG_5663_68dc29cf-466a-4a6e-90e2-cb987b6ff3b2.jpg?v=1665736876');
+
+  background-size:
+cover;
+/* Covers the entire area of the element, might crop some parts */
+
+  background-position:
+center;
+/* Centers the background image in the element */
+
+  background-repeat:
+no-repeat;
+/* Prevents repeating the background image */
+
+}
+
+
+
+
+.content {
+
+  position:
+relative;
+/* Ensures content is on top of the background */
+
+  padding:
+20px;
+
+  border-radius:
+10px;
+
+  background-color:
+rgba(185, 184, 184, 0.8); /* Semi-transparent white for readability */
+
+  margin:
+auto;
+
+  max-width:
+800px;
+/* Maximum width of the content area */
+
+  text-align:
+left;
+
+  z-index:
+1;
+/* Ensures content is above the background */
+
+}
+
+
+
+
+/* Ensures that the HTML, body, and root div take up the entire height of the viewport */
+
+html,
+body,
+#root {
+
+  height:
+100%;
+
+  margin:
+0;
+
+  padding:
+0;
+
+  overflow-x:
+hidden;  /* Prevents horizontal overflow */
+
+}
+
+
+
+
+/* Set the .App to also take up the entire height and apply the background image */
+
+.App {
+
+  position:
+relative;  /* Establishes a stacking context */
+
+  min-height:
+330%;  /* Ensures it covers at least the entire viewport height */
+
+  background-image:
+url('https://tirumaladesigners.in/cdn/shop/products/MG_5663_68dc29cf-466a-4a6e-90e2-cb987b6ff3b2.jpg?v=1665736876');
+
+  background-size:
+cover;  /* Ensures the image covers the entire element */
+
+  background-position:
+center;  /* Centers the image */
+
+  background-repeat:
+no-repeat
+
+}
+
+
+
+
+/* App.css */
+
+.top-header {
+
+  width:
+100%;
+
+  background-color:
+#a09c9c;
+/* Light background color for the header */
+
+  padding:
+20px
+0;
+/* Increased padding for better visual spacing */
+
+  text-align:
+center;
+
+  box-shadow:
+0
+2px
+4px
+rgba(36,
+35,
+35,
+0.1);
+/* Optional: adds a subtle shadow for depth */
+
+  position:
+fixed;
+/* Makes the header fixed at the top */
+
+  top:
+0;
+
+  left:
+0;
+
+  z-index:
+1000;
+/* Ensures the header is above all other content */
+
+}
+
+
+
+
+.top-header
+h1 {
+
+  font-size:
+35px;
+/* Significantly larger font size */
+
+  font-weight:
+bold;
+/* Makes the text bolder */
+
+  color:
+#0f0f0f;
+/* Dark color for better contrast */
+
+  text-shadow:
+1px
+1px
+2px
+rgba(0,0,0,0.5);
+/* Optional: adds shadow for better legibility over varying backgrounds */
+
+  font-family:
+'Verdana',
+sans-serif;
+/* Specific sans-serif font */
+
+}
+
+
+
+
+.image-container {
+
+  margin-top:
+80px;
+/* Increased top margin to accommodate larger header */
+
+}
+
+
+
+
+.background-image {
+
+  width:
+100%;
+
+  height:
+auto;
+
+}
+
+
+
+
+.content {
+
+  padding:
+20px;
+
+  border-radius:
+10px;
+
+  background-color:
+rgba(97,
+95,
+95,
+0.8);
+/* Semi-transparent white for readability */
+
+  margin:
+auto;
+
+  max-width:
+800px;
+/* Maximum width of the content area */
+
+  text-align:
+left;
+
+  position:
+relative;
+
+  top:
+20px;
+/* Additional space below the image container */
+
+}
+
+
+
+
+/* App.css */
+
+.top-header {
+
+  width:
+100%;
+
+  background-color:
+#5f5d5d;
+/* Light background color for the header */
+
+  padding:
+20px
+0;
+/* Increased padding for better visual spacing */
+
+  text-align:
+center;
+
+  box-shadow:
+0
+2px
+4px
+rgba(0,0,0,0.1);
+/* Optional: adds a subtle shadow for depth */
+
+  position:
+fixed;
+/* Makes the header fixed at the top */
+
+  top:
+0;
+
+  left:
+0;
+
+  z-index:
+1000;
+/* Ensures the header is above all other content */
+
+}
+
+
+
+
+.image-container {
+
+  width:
+100%;
+/* Adjust as necessary, makes sure the container fits the image */
+
+  display:
+flex;
+
+  justify-content:
+center;
+/* Centers the image horizontally */
+
+  margin-top:
+60px;
+/* Adjust margin to accommodate header size */
+
+  overflow:
+hidden;
+/* Ensures no overflow if border radius is applied */
+
+}
+
+
+
+
+.background-image {
+
+  max-width:
+100%;
+/* Ensures image does not exceed the width of its container */
+
+  height:
+auto;
+/* Keeps the image aspect ratio */
+
+  border-radius:
+20px;
+/* Rounds the corners of the image */
+
+  box-shadow:
+0
+4px
+8px
+rgba(155,
+152,
+152,
+0.1);
+/* Soft shadow around the image */
+
+}
+
+
+
+
+.content {
+
+  padding:
+20px;
+
+  border-radius:
+10px;
+/* Optional: Applies rounded corners to the content box */
+
+  background-color:
+rgba(179,
+175,
+175,
+0.8);
+/* Semi-transparent white for readability */
+
+  margin:
+auto;
+
+  max-width:
+800px;
+/* Maximum width of the content area */
+
+  text-align:
+left;
+
+  position:
+relative;
+
+  top:
+20px;
+/* Additional space below the image container */
+
+}
+
+
+
+
+.content
+p {
+
+  font-size:
+40px;
+/* Increase the font size */
+
+  line-height:
+1;
+/* Adjust the line height for better readability */
+
+  color:
+#0e0d0d;
+/* Optionally, ensure the text color is suitable */
+
+}
+
+
+
+
+.content
+ul
+li {
+
+  font-size:
+40px;
+/* Optionally increase the font size for list items too */
+
+  line-height:
+2.6;
+
+}
+
+
+
+
+.content {
+
+  text-align:
+center;
+
+  max-width:
+1200px;
+/* Adjust based on your design */
+
+  margin:
+auto;
+
+}
+
+
+
+
+.boxes {
+
+  display:
+flex;
+
+  justify-content:
+space-between;
+/* Ensures the boxes are at opposite ends */
+
+  padding:
+20px;
+
+}
+
+
+
+
+.box {
+
+  width:
+45%;
+/* Makes each box take up almost half of the container width */
+
+  padding:
+20px;
+
+  border:
+1px
+solid
+#2e2d2d;
+
+  background-color:
+#a5a1a1;
+
+}
+
+
+
+
+.box-details {
+
+  display:
+flex;
+
+  justify-content:
+space-between;
+/* Aligns text sections under each box */
+
+  padding:
+0
+20px;
+
+}
+
+
+
+
+.box-details
+>
+div {
+
+  width:
+45%;
+/* Corresponds with the box widths above */
+
+}
+
+
+
+
+.register-button {
+
+  margin-top:
+20px;
+
+}
+
+
+
+
+.clicked {
+
+  background-color:
+#ecad00e3;
+/* Green */
+
+  color:
+rgb(241,
+187,
+9);
+
+}
+
+
+
+
+.top-header {
+
+  text-align:
+center;
+
+  background-color:
+#9c9494;
+/* Light pinkish-gray for distinction */
+
+  padding:
+10px
+0;
+
+  font-size:
+300px;
+/* Increase the font size */
+
+}
+
+
+
+
+.why-choose-us {
+
+  margin:
+60px
+auto;
+/* Increased margin for more visual separation */
+
+  padding:
+30px;
+
+  text-align:
+left;
+
+  background-color:
+#b9b4b4;
+/* White background for high contrast */
+
+  width:
+100%;
+
+  box-shadow:
+0
+4px
+8px
+rgba(214,
+174,
+174,
+0.1);
+/* Stronger shadow for depth */
+
+  border-radius:
+10px;
+/* Rounded corners */
+
+  font-size:
+25px;
+
+}
+
+
+
+
+.image-container {
+
+  margin-top:
+60px;
+/* Ensure no element touches another */
+
+  text-align:
+justify;
+
+}
+
+
+
+
+.content {
+
+  margin-top:
+60px;
+/* Consistent spacing */
+
+}
+
+
+
+
+/* Specific styles for headings in the boxes */
+
+.box
+h1,
+.box
+h2 {
+
+  font-size:
+40px;
+/* Larger font size for headings */
+
+  color:
+#333;
+/* Optional: Darker color for better readability */
+
+  margin-bottom:
+10px;
+/* Adds space below the heading */
+
+}
+
+
+
+
+/* Styles for list items in the boxes for clarity and readability */
+
+.box
+ul {
+
+  font-size:
+40px;
+/* Slightly larger font size for list items */
+
+  color:
+#555;
+/* Optional: Slightly softer text color */
+
+  line-height:
+1.6;
+/* Better line spacing for readability */
+
+}
+
+
+
+
+/* Ensure the box content itself is well-padded and easy to read */
+
+.box {
+
+  padding:
+20px;
+
+  background-color:
+#bdb8b8;
+/* Light background to contrast with text */
+
+  border:
+1px
+solid
+#313131;
+/* Optional: Border for definition */
+
+  margin-bottom:
+20px;
+/* Space below each box if stacked vertically */
+
+}
+
+
+
+
+.box
+ul
+li {
+
+  font-size:
