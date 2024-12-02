@@ -1,0 +1,73 @@
+.App {
+
+    text-align: center;
+
+    color: white;
+
+    height: 100vh;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+
+ 
+
+  .background {
+
+    width: 100%;
+
+    height: 100%;
+
+    background-image: url('https://media-api.xogrp.com/images/f4570601-a1e6-4802-86fb-ad9e988066fe~rs_768.h');
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-end;
+
+    align-items: center;
+
+  }
+
+ 
+
+  .overlay-image {
+
+    width: 200px; /* Adjust size as needed */
+
+    height: auto;
+
+    margin-bottom: 20px; /* Space between the overlay image and the text */
+
+  }
+
+ 
+
+  .content {
+
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    width: 80%; /* Adjust width as needed */
+
+    margin-bottom: 50px; /* Space from bottom */
+
+  }
+
+ 
